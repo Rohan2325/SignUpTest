@@ -26,8 +26,8 @@ public class SignUp {
 	
 		driver.findElement(By.xpath("//input[@placeholder='Mobile Number']")).sendKeys("7338511452");
 		JavascriptExecutor js =(JavascriptExecutor)driver;
-	    WebElement continueBtn = driver.findElement(By.xpath("//button[text()='Continue']"));
-    	js.executeScript("arguments[0].click()",continueBtn);
+	        WebElement continueBtn = driver.findElement(By.xpath("//button[text()='Continue']"));
+    	        js.executeScript("arguments[0].click()",continueBtn);
     	
 	    driver.findElement(By.xpath("//input[@aria-label='Please enter OTP character 1']")).sendKeys("5");
 	    driver.findElement(By.xpath("//input[@aria-label='Please enter OTP character 2']")).sendKeys("6");
@@ -35,20 +35,20 @@ public class SignUp {
 	    driver.findElement(By.xpath("//input[@aria-label='Please enter OTP character 4']")).sendKeys("8");
 	    driver.findElement(By.xpath("//button[text()='Continue']")).click();
 	    
-	    driver.findElement(By.xpath("//p[text()='Search Engine']")).click();
-	    driver.findElement(By.xpath("//button[text()='Continue']")).click();
+	        driver.findElement(By.xpath("//p[text()='Search Engine']")).click();
+	        driver.findElement(By.xpath("//button[text()='Continue']")).click();
 	    
-	    driver.findElement(By.xpath("//p[text()='Exploring Opportunities']")).click();
-	    driver.findElement(By.xpath("//button[text()='Continue']")).click();
+	        driver.findElement(By.xpath("//p[text()='Exploring Opportunities']")).click();
+	        driver.findElement(By.xpath("//button[text()='Continue']")).click();
 	    
-	    driver.findElement(By.xpath("//p[text()='Job Opportunities']")).click();
-	    driver.findElement(By.xpath("//button[text()='Continue']")).click();
+	        driver.findElement(By.xpath("//p[text()='Job Opportunities']")).click();
+	        driver.findElement(By.xpath("//button[text()='Continue']")).click();
 	    
 		driver.findElement(By.xpath("//button[text()='Continue with email']")).click();
 		driver.findElement(By.xpath("//input[@name='email']")).sendKeys("rohanjh23@gmail.com");
 		driver.findElement(By.xpath("//button[text()='Continue']")).click();
 		
-		driver.findElement(By.xpath("//input[@aria-label='Please enter OTP character 1']")).sendKeys("2");
+	    driver.findElement(By.xpath("//input[@aria-label='Please enter OTP character 1']")).sendKeys("2");
 	    driver.findElement(By.xpath("//input[@aria-label='Please enter OTP character 2']")).sendKeys("3");
 	    driver.findElement(By.xpath("//input[@aria-label='Please enter OTP character 3']")).sendKeys("4");
 	    driver.findElement(By.xpath("//input[@aria-label='Please enter OTP character 4']")).sendKeys("5");
